@@ -45,7 +45,7 @@ Shiro使用了AES-128-CBC模式对cookie进行加密，导致恶意用户可以�
 
 
 
-可从 Apache Shiro Gtihub 官方仓库自行下载漏洞影响版本(https://github.com/apache/shiro)，使用 Apache Maven(软件项目管理及自动构建工具) 编译构建生成 war Java 应用程序包。
+可从 Apache Shiro Gtihub 官方仓库自行下载漏洞影响版本([https://github.com/apache/shiro](https://github.com/apache/shiro))，使用 Apache Maven(软件项目管理及自动构建工具) 编译构建生成 war Java 应用程序包。
 
 
 
